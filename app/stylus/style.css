@@ -17,3 +17,17 @@
   color: #9a9a9a;
   margin-right: 3%;
 }
+
+.button:hover {
+  background-color: black;
+  color: white;
+
+}
+ 
+.title div:hover { 
+  font-size: 12px;
+}
+
+.button.hide {
+  background: red;
+}

@@ -107,7 +107,7 @@ gulp.task('styleguide', function(cb) {
 
 // watch styl, html and js file changes
 gulp.task('watch', function() {
-  gulp.watch(app + 'stylus/**/*.styl', ['styles']);
+  gulp.watch(app + 'stylus/**/*', ['styles']);
   gulp.watch(app + 'index.html', ['html']);
   gulp.watch(app + 'scripts/**/*.js', ['scripts']);
 });

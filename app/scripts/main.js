@@ -1,9 +1,10 @@
 var social = require('./utils/social');
-var $ = require('./vendor/newsquiz');
-var Tabletop = require('./vendor/tabletop');
+require('./vendor/newsquiz');
+//var Tabletop = require('./vendor/tabletop');
 
 social.init();
 
+/*
 var quiz = $('#quiz_container').quiz('1iLmCg2h31VqLrXliP61LUvRtD7U-UPoAPihc_Pta58E');
 
 
@@ -91,5 +92,5 @@ $(document).on('click', '.info-btn', function() {
 $('.close').on('click', function() {
     $('.infobox').hide();
 
-});
+});*/
 
