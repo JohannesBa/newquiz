@@ -1,0 +1,46 @@
+@import 'color'
+@import 'font'
+
+/*
+Buttons
+
+The Button Layouts for interactive projects.
+
+Markup:
+<button>finden</button>
+<button class="btn-green">finden</button>
+
+Styleguide 1
+*/
+
+button
+  display: block
+  border: 1px solid #ccc
+  background: #fff
+  font-size: .875rem
+  text-transform: uppercase
+  border-radius: 4px
+  font-weight: bold
+  padding: .7em 1.7em
+  margin: 1em 0
+  font-family: $sans
+  border-bottom: 1px solid darken($grey, 20)
+  line-height: 100%
+  outline: none
+  border-bottom-width: 2px
+  border-bottom-color: #d9d9d9
+  &:hover
+    border-bottom-width: 1px
+    color: lighten($black, 20)
+  &.btn-green
+    background: $btn-green
+    color: $white
+    border: none
+    &:hover
+      background: lighten($btn-green, 10)
+  &.btn-grey
+    background: $btn-grey
+    border: none
+    &:hover
+      color: lighten($black, 20)
+  

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Interaktiv Starterkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Berliner Bezirks-GeoQuiz</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script>
+    var isIframe = false;
+
+    if ((top !== parent || window != window.top)) {
+        document.domain = 'morgenpost.de';
+        isIframe = true;
+    }
+    </script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+        document.getElementById('app-wrapper').className = 'old-browser';
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="app-wrapper">
+        <header>
+            <div class="topline">
+                <a href="http://www.morgenpost.de" target="_blank" class="mobile-only">
+                    <img src="images/logo-small.png" class="mp-logo">
+                </a>
+                <span class="date">01.01.2015</span>
+                <span class="kicker">Berliner Bezirks-GeoQuiz</span>
+                <div class="social clearfix">
+                    <a class="wa-btn"></a>
+                    <iframe class="fb-iframe" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:24px;" allowtransparency="true"></iframe>
+                    <a target="_blank" class="fb-button social-button">
+                        <i class="social_facebook social-button"></i> <span class="fb-count">-</span>
+                    </a>
+                    <a target="_blank" class="tw-button social-button">
+                        <i class="social_twitter"></i> <span class="tw-count">-</span>
+                    </a>
+                </div>
+            </div>
+            <h1 class="title">Berliner Bezirks-GeoQuiz</h1>
+            <h3 class="subline">Seit je her ist Berlin Einwanderungsstadt. In welchen Bezirken welche Nationalitäten angetroffen werden können, ist mit der Geschichte Berlins oft eng verknüpft. Testen Sie Ihr Wissen und erkennen Sie Berliner Bezirke anhand der Herkunft ihrer Bewohner in unserem GeoQuiz!</h3>
+        </header>
+        <div class="browsehappy">
+            Bitte installieren Sie einen aktuellen <a href="http://browsehappy.com/">Browser</a>, um die Anwendung zu nutzen.
+        </div>
+        
+        <section class="vis">
+            <iframe width='100%' height='520' frameborder='0' src='https://johannesba.cartodb.com/viz/89565b76-d943-11e4-a603-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+        </section>
+        <div class="source">
+            Quelle: Amt für Statistik Berlin-Brandenburg, <a href="">Lorem 2015</a>
+        </div>
+
+        <section class="textblock">
+            <p class="text">
+                Die folgenden Karten zeigen die Top-50 Geburtsorte von Einwohnern der einzelnen Berliner Bezirke: Es sind also vor allem die Städte in die Top-50 gelangt, in denen vergleichsweise viele Einwohner geboren sind. Daher können die Karten nur eingeschränkt genutzt werden, um zu bestimmen, welche Nationalitäten in Bezirken verstärkt vertreten sind. Beispielsweise könnten in einem Stadtteil zwar überdurchschnittlich viele Amerikaner wohnen, weil diese aber in vielen verschiedenen Städten geboren sind, könnten sie es trotzdem nicht in die Top-50 der Geburtsorte geschafft haben.
+            </p>
+            <div class="infobox sidebox">
+                <strong>Info:</strong> Ausgenommen von der Auswertung sind in Berlin Geborene. Denn obwohl <a target="_blank" href="http://www.morgenpost.de/berlin/25-jahre-mauerfall/interaktiv/article133254520/Gebuertige-Berliner-und-Zugezogene-Wer-kam-wer-ging-wer-heute-hier-wohnt.html?config=interactive"> in manchen Stadteilen der Anteil an Zugezogenen überwiegt</a>, werden der Großstadt Berlin im direkten Vergleich deutlich mehr Geburten zugeordnet als allen anderen Städten.
+            </div>
+            <p class="text">
+                Nichtsdestotrotz lassen sich hier aber Tendenzen erkennen und die Karten bestimmten Bezirken zuordnen. Und wenn Sie einen Hinweis brauchen, machen Sie von den vorbereiteten Tipps Gebrauch. Die dort enthaltenen Mini-Auswertungen beziehen sich nur auf die im jeweiligen Bezirk wohnenden Bewohner und berücksichtigen auch die Größe der Bezirke. Letztendlich gilt aber: Auch das Ausschlussverfahren offenbart Berlinkenntnis.
+            </p>
+        </section>
+<section class="vis">
+        <iframe width='100%' height='520' frameborder='0' src='https://johannesba.cartodb.com/viz/140b91d8-d948-11e4-a11d-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+        <div class="button">test</div>
+</section>
+
+        <footer>
+            <hr>
+            <div class="contactbox">
+                Hier können Sie <a href="https://docs.google.com/spreadsheets/d/1x77-onfnmmbSf7xMQf4H-Ak4ushbG-GzKyTd6_8h0nQ/edit?usp=sharing" target="_blank">die Rohdaten einsehen und herunterladen</a>, die der Grafik zugrunde liegen. Haben Sie Anmerkungen oder einen Fehler entdeckt? Wir freuen uns über <a target="_blank" href="mailto:interaktiv@morgenpost.de">Ihre Mail</a>.
+                <br>Weitere Projekte des Interaktiv-Teams finden Sie <a target="_blank" href="http://www.morgenpost.de/interaktiv">hier</a>
+            </div>
+            <hr>
+            <div class="credits">
+                <div class="byline">Von <a target="_blank" href="http://www.twitter.com/juliustroeger">Julius Tröger</a>, <a target="_blank" href="http://www.twitter.com/moklick">Moritz Klack</a>, <a target="_blank" href="http://www.twitter.com/newreld">David Wendler</a> und <a target="_blank" href="http://www.twitter.com/chrtze">Christopher Möller</a></div>
+                <div class="imprint">Berliner Morgenpost, 2015</div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.button {
+  font-size: 12px;
+  width: 30%;
+  float: left;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  color: #9a9a9a;
+  margin-right: 3%;
+}
